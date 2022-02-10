@@ -56,7 +56,7 @@ const Feedback = () => {
     name: errors.name?.type === "required" && "Поле имя не заполнено",
     phone:
       (errors.phone?.type === "required" && "Номер не указан") ||
-      (errors.phone?.type === "minLength" && "Некоррекстный номер"),
+      (errors.phone?.type === "minLength" && "Некорректный номер"),
     captcha:
       (errors.captcha?.type === "required" && "Капча не заполнена") ||
       (errors.captcha?.type === "validate" && "Неверная капча"),

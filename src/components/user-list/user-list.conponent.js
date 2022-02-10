@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import PropTypes from "prop-types";
 import { useDispatch, useSelector } from "react-redux";
 
 import { deleteUserRequest, loadAllUsersRequest } from "../../store/users";
@@ -45,11 +44,6 @@ const UserList = () => {
       {renderUsersList}
     </div>
   );
-};
-
-UserList.propTypes = {
-  // Список пользователей
-  users: PropTypes.array,
 };
 
 export default UserList;
