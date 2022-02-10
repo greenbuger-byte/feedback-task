@@ -1,0 +1,17 @@
+@import "variables";
+*{
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: $gray;
+  font-family: 'Poppins', sans-serif;
+}
+.App{
+  margin: auto;
+  width: 100%;
+  max-width: 1230px;
+  display: flex;
+}

@@ -3,12 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.7.2",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.25.0",
+    "buffer": "^6.0.3",
+    "clsx": "^1.1.1",
+    "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-hook-form": "^7.26.1",
+    "react-icons": "^4.3.1",
+    "react-input-mask": "^2.0.4",
+    "react-redux": "^7.2.6",
     "react-scripts": "5.0.0",
+    "react-simple-captcha": "^8.2.6",
+    "redux": "^4.1.2",
+    "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +47,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "miragejs": "^0.1.43",
+    "prettier": "^2.5.1",
+    "sass": "^1.49.7"
   }
 }

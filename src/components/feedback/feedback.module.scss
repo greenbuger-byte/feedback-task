@@ -1,0 +1,28 @@
+@import "src/style/variables";
+
+.feedback{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  max-width: 500px;
+  height: 400px;
+  justify-content: center;
+  background-color: $white;
+  padding: 20px;
+  box-shadow: -2px 2px 31px -20px rgba(34, 60, 80, 0.2);
+  &__title{
+  font-size: 18px;
+  font-weight: bold;
+  }
+  &__captcha{
+    div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  &__button{
+    margin: 10px 5px;
+  }
+}
